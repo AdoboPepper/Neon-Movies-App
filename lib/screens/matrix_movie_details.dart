@@ -4,6 +4,8 @@ import 'package:flutter_svg/svg.dart';
 import 'package:moviesapp/constants.dart';
 import 'package:moviesapp/components/masked_image.dart';
 
+import 'home_screen.dart';
+
 class MatrixDetails extends StatelessWidget {
   const MatrixDetails({Key? key}) : super(key: key);
 
@@ -65,16 +67,24 @@ class MatrixDetails extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Container(
-                      height: 44,
-                      width: 44,
-                      padding: const EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(100),
-                        border: Border.all(width: 3, color: Colors.white),
-                      ),
-                      child: SvgPicture.asset(
-                        'assets/svg/icon-back.svg',
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(builder: (context) => HomeScreen()),
+                        );
+                      },
+                      child: Container(
+                        height: 44,
+                        width: 44,
+                        padding: const EdgeInsets.all(10),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(100),
+                          border: Border.all(width: 3, color: Colors.white),
+                        ),
+                        child: SvgPicture.asset(
+                          'assets/svg/icon-back.svg',
+                        ),
                       ),
                     ),
                     Container(

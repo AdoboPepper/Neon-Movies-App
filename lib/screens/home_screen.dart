@@ -6,8 +6,11 @@ import 'package:glassmorphism/glassmorphism.dart';
 import 'package:moviesapp/components/masked_image.dart';
 import 'package:moviesapp/components/search_field_widget.dart';
 import 'package:moviesapp/models/movie.dart';
+import 'package:moviesapp/screens/spiderman_movie_details.dart';
 
 import '../constants.dart';
+import 'eternals_movie_details.dart';
+import 'matrix_movie_details.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -156,6 +159,24 @@ class _HomeScreenState extends State<HomeScreen> {
                           mask = Constants.kMaskCenter;
                         }
                         return GestureDetector(
+                          onTap: () {
+                            if (index == 0) {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => SpidermanDetails()),
+                              );
+                            } else if (index == 1) {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => MatrixDetails()),
+                              );
+                            } else if (index == 2) {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => DetailsEternals()),
+                              );
+                            }
+                          },
                           child: Container(
                             margin: EdgeInsets.only(
                               left: index == 0 ? 20 : 0,

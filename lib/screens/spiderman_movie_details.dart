@@ -4,6 +4,8 @@ import 'package:flutter_svg/svg.dart';
 import 'package:moviesapp/constants.dart';
 import 'package:moviesapp/components/masked_image.dart';
 
+import 'home_screen.dart';
+
 class SpidermanDetails extends StatelessWidget {
   const SpidermanDetails({Key? key}) : super(key: key);
 
@@ -65,16 +67,24 @@ class SpidermanDetails extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Container(
-                      height: 44,
-                      width: 44,
-                      padding: const EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(100),
-                        border: Border.all(width: 3, color: Colors.white),
-                      ),
-                      child: SvgPicture.asset(
-                        'assets/svg/icon-back.svg',
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(builder: (context) => HomeScreen()),
+                        );
+                      },
+                      child: Container(
+                        height: 44,
+                        width: 44,
+                        padding: const EdgeInsets.all(10),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(100),
+                          border: Border.all(width: 3, color: Colors.white),
+                        ),
+                        child: SvgPicture.asset(
+                          'assets/svg/icon-back.svg',
+                        ),
                       ),
                     ),
                     Container(
@@ -183,7 +193,7 @@ class SpidermanDetails extends StatelessWidget {
                             height: 20,
                           ),
                           Text(
-                            'Peter Park is unmasked for the world to see,\nforcing him to discover\nwhat it truly means\nto be Spider-man.',
+                            'Peter Park is unmasked,\nforcing him to discover\nwhat it truly means\nto be Spider-man.',
                             textAlign: TextAlign.center,
                             maxLines: screenHeight <= 667 ? 2 : 4,
                             style: TextStyle(
@@ -282,7 +292,7 @@ class SpidermanDetails extends StatelessWidget {
                                 minRadius: 16,
                                 maxRadius: screenWidth <= 375 ? 24 : 30,
                                 backgroundImage: const NetworkImage(
-                                  'https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_.jpg',
+                                  'https://nationaltoday.com/wp-content/uploads/2022/05/83-Tom-Holland-640x514.jpg',
                                 ),
                               ),
                               Expanded(
