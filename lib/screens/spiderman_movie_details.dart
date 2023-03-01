@@ -249,49 +249,6 @@ class SpidermanDetails extends StatelessWidget {
                                 minRadius: 16,
                                 maxRadius: screenWidth <= 375 ? 24 : 30,
                                 backgroundImage: const NetworkImage(
-                                  'https://thecelebportal.com/wp-content/uploads/2020/02/Tom-Holland-Income.jpg',
-                                ),
-                              ),
-                              Expanded(
-                                child: Container(
-                                  constraints: const BoxConstraints(
-                                    maxHeight: 50,
-                                    maxWidth: 112,
-                                  ),
-                                  transform:
-                                  Matrix4.translationValues(-6, 0, 0),
-                                  child: Stack(
-                                    clipBehavior: Clip.none,
-                                    children: const [
-                                      MaskedImage(
-                                        asset: Constants.kMaskCast,
-                                        mask: Constants.kMaskCast,
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsets.only(
-                                          left: 16.0,
-                                        ),
-                                        child: Align(
-                                          alignment: Alignment.centerLeft,
-                                          child: Text(
-                                            'Angelina\nJolie',
-                                            style: TextStyle(
-                                              color: Colors.white,
-                                              fontSize: 13,
-                                            ),
-                                            maxLines: 2,
-                                          ),
-                                        ),
-                                      )
-                                    ],
-                                  ),
-                                ),
-                              ),
-                              CircleAvatar(
-                                backgroundColor: Colors.orange,
-                                minRadius: 16,
-                                maxRadius: screenWidth <= 375 ? 24 : 30,
-                                backgroundImage: const NetworkImage(
                                   'https://nationaltoday.com/wp-content/uploads/2022/05/83-Tom-Holland-640x514.jpg',
                                 ),
                               ),
@@ -317,7 +274,50 @@ class SpidermanDetails extends StatelessWidget {
                                         child: Align(
                                           alignment: Alignment.centerLeft,
                                           child: Text(
-                                            'Angelina\nJolie',
+                                            'Tom\nHolland',
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                              fontSize: 13,
+                                            ),
+                                            maxLines: 2,
+                                          ),
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                              ),
+                              CircleAvatar(
+                                backgroundColor: Colors.orange,
+                                minRadius: 16,
+                                maxRadius: screenWidth <= 375 ? 24 : 30,
+                                backgroundImage: const NetworkImage(
+                                  'https://upload.wikimedia.org/wikipedia/commons/2/28/Zendaya_-_2019_by_Glenn_Francis.jpg',
+                                ),
+                              ),
+                              Expanded(
+                                child: Container(
+                                  constraints: const BoxConstraints(
+                                    maxHeight: 50,
+                                    maxWidth: 112,
+                                  ),
+                                  transform:
+                                  Matrix4.translationValues(-6, 0, 0),
+                                  child: Stack(
+                                    clipBehavior: Clip.none,
+                                    children: const [
+                                      MaskedImage(
+                                        asset: Constants.kMaskCast,
+                                        mask: Constants.kMaskCast,
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsets.only(
+                                          left: 16.0,
+                                        ),
+                                        child: Align(
+                                          alignment: Alignment.centerLeft,
+                                          child: Text(
+                                            'Zendaya',
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 13,
@@ -343,7 +343,7 @@ class SpidermanDetails extends StatelessWidget {
                                 minRadius: 16,
                                 maxRadius: screenWidth <= 375 ? 24 : 30,
                                 backgroundImage: const NetworkImage(
-                                  'https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_.jpg',
+                                  'https://m.media-amazon.com/images/M/MV5BMjE0MDkzMDQwOF5BMl5BanBnXkFtZTgwOTE1Mjg1MzE@._V1_FMjpg_UX1000_.jpg',
                                 ),
                               ),
                               Expanded(
@@ -368,7 +368,7 @@ class SpidermanDetails extends StatelessWidget {
                                         child: Align(
                                           alignment: Alignment.centerLeft,
                                           child: Text(
-                                            'Angelina\nJolie',
+                                            'Benedict\nCumberbatch',
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 13,
@@ -386,7 +386,7 @@ class SpidermanDetails extends StatelessWidget {
                                 minRadius: 16,
                                 maxRadius: screenWidth <= 375 ? 24 : 30,
                                 backgroundImage: const NetworkImage(
-                                  'https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_.jpg',
+                                  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Jacob_Batalon_%2828035642754%29_%28cropped%29.jpg/1200px-Jacob_Batalon_%2828035642754%29_%28cropped%29.jpg',
                                 ),
                               ),
                               Expanded(
@@ -411,7 +411,7 @@ class SpidermanDetails extends StatelessWidget {
                                         child: Align(
                                           alignment: Alignment.centerLeft,
                                           child: Text(
-                                            'Angelina\nJolie',
+                                            'Jacob\nBatalon',
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 13,

@@ -250,7 +250,7 @@ class MatrixDetails extends StatelessWidget {
                                 minRadius: 16,
                                 maxRadius: screenWidth <= 375 ? 24 : 30,
                                 backgroundImage: const NetworkImage(
-                                  'https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_.jpg',
+                                  'https://m.media-amazon.com/images/M/MV5BNGJmMWEzOGQtMWZkNS00MGNiLTk5NGEtYzg1YzAyZTgzZTZmXkEyXkFqcGdeQXVyMTE1MTYxNDAw._V1_.jpg',
                                 ),
                               ),
                               Expanded(
@@ -275,7 +275,7 @@ class MatrixDetails extends StatelessWidget {
                                         child: Align(
                                           alignment: Alignment.centerLeft,
                                           child: Text(
-                                            'Angelina\nJolie',
+                                            'Keanu\nReeves',
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 13,
@@ -293,7 +293,7 @@ class MatrixDetails extends StatelessWidget {
                                 minRadius: 16,
                                 maxRadius: screenWidth <= 375 ? 24 : 30,
                                 backgroundImage: const NetworkImage(
-                                  'https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_.jpg',
+                                  'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Carrie-Anne_Moss_May_2016.jpg/800px-Carrie-Anne_Moss_May_2016.jpg',
                                 ),
                               ),
                               Expanded(
@@ -318,7 +318,7 @@ class MatrixDetails extends StatelessWidget {
                                         child: Align(
                                           alignment: Alignment.centerLeft,
                                           child: Text(
-                                            'Angelina\nJolie',
+                                            'Carrie-Anne\nMoss',
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 13,
@@ -344,7 +344,7 @@ class MatrixDetails extends StatelessWidget {
                                 minRadius: 16,
                                 maxRadius: screenWidth <= 375 ? 24 : 30,
                                 backgroundImage: const NetworkImage(
-                                  'https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_.jpg',
+                                  'https://i.guim.co.uk/img/media/a2de15e8e7eb6992a4ebb73a14735fabcaa9a02a/0_97_3755_2253/master/3755.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=f0190f3f818f64ec0ec92c70ac11f149',
                                 ),
                               ),
                               Expanded(
@@ -369,7 +369,7 @@ class MatrixDetails extends StatelessWidget {
                                         child: Align(
                                           alignment: Alignment.centerLeft,
                                           child: Text(
-                                            'Angelina\nJolie',
+                                            'Yahya\nMateen II',
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 13,
@@ -387,7 +387,7 @@ class MatrixDetails extends StatelessWidget {
                                 minRadius: 16,
                                 maxRadius: screenWidth <= 375 ? 24 : 30,
                                 backgroundImage: const NetworkImage(
-                                  'https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_.jpg',
+                                  'https://m.media-amazon.com/images/M/MV5BMjE3MzU5NDc0Nl5BMl5BanBnXkFtZTgwNDMzNjE1NzE@._V1_.jpg',
                                 ),
                               ),
                               Expanded(
@@ -412,7 +412,7 @@ class MatrixDetails extends StatelessWidget {
                                         child: Align(
                                           alignment: Alignment.centerLeft,
                                           child: Text(
-                                            'Angelina\nJolie',
+                                            'Jessica\nHenwick',
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 13,

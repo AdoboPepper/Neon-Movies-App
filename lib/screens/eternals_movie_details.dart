@@ -249,7 +249,7 @@ class DetailsEternals extends StatelessWidget {
                                 minRadius: 16,
                                 maxRadius: screenWidth <= 375 ? 24 : 30,
                                 backgroundImage: const NetworkImage(
-                                  'https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_.jpg',
+                                  'https://m.media-amazon.com/images/M/MV5BYTI3ZDEwYjktZjVhYS00NTlhLTkwOWEtNjM1MzEyMWU5M2QyXkEyXkFqcGdeQXVyMTE3ODY2Nzk@._V1_.jpg',
                                 ),
                               ),
                               Expanded(
@@ -274,7 +274,7 @@ class DetailsEternals extends StatelessWidget {
                                         child: Align(
                                           alignment: Alignment.centerLeft,
                                           child: Text(
-                                            'Angelina\nJolie',
+                                            'Gemma \nChan',
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 13,
@@ -292,7 +292,7 @@ class DetailsEternals extends StatelessWidget {
                                 minRadius: 16,
                                 maxRadius: screenWidth <= 375 ? 24 : 30,
                                 backgroundImage: const NetworkImage(
-                                  'https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_.jpg',
+                                  'https://m.media-amazon.com/images/M/MV5BMTUyMDgxNDYxOV5BMl5BanBnXkFtZTgwMTExMDEwMDI@._V1_.jpg',
                                 ),
                               ),
                               Expanded(
@@ -317,7 +317,7 @@ class DetailsEternals extends StatelessWidget {
                                         child: Align(
                                           alignment: Alignment.centerLeft,
                                           child: Text(
-                                            'Angelina\nJolie',
+                                            'Richard \nMadden',
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 13,
@@ -386,7 +386,7 @@ class DetailsEternals extends StatelessWidget {
                                 minRadius: 16,
                                 maxRadius: screenWidth <= 375 ? 24 : 30,
                                 backgroundImage: const NetworkImage(
-                                  'https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_.jpg',
+                                  'https://flxt.tmsimg.com/assets/543607_v9_bc.jpg',
                                 ),
                               ),
                               Expanded(
@@ -411,7 +411,7 @@ class DetailsEternals extends StatelessWidget {
                                         child: Align(
                                           alignment: Alignment.centerLeft,
                                           child: Text(
-                                            'Angelina\nJolie',
+                                            'Kumail \nNanjiani',
                                             style: TextStyle(
                                               color: Colors.white,
                                               fontSize: 13,
