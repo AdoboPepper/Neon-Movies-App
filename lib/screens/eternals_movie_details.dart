@@ -32,10 +32,26 @@ class DetailsEternals extends StatelessWidget {
               child: Container(
                 height: screenHeight * 0.5,
                 width: screenWidth,
-                decoration: const BoxDecoration(
+                decoration: BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.cover,
                     image: AssetImage('assets/movie-posters/img-eternals.jpg'),
+                  ),
+                ),
+              ),
+            ),
+            Positioned(
+              top: 0,
+              left: 0,
+              child: Container(
+                height: screenHeight * 0.5,
+                width: screenWidth,
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    colors: [Colors.transparent, Colors.black.withOpacity(0.7)],
+                    stops: [0.0, 0.5],
                   ),
                 ),
               ),

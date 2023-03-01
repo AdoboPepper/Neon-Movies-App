@@ -4,8 +4,8 @@ import 'package:flutter_svg/svg.dart';
 import 'package:moviesapp/constants.dart';
 import 'package:moviesapp/components/masked_image.dart';
 
-class SpidermanDetails extends StatelessWidget {
-  const SpidermanDetails({Key? key}) : super(key: key);
+class MatrixDetails extends StatelessWidget {
+  const MatrixDetails({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +35,7 @@ class SpidermanDetails extends StatelessWidget {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.cover,
-                    image: AssetImage('assets/movie-posters/img-spiderman.jpg'),
+                    image: AssetImage('assets/movie-posters/img-matrix.jpg'),
                   ),
                 ),
               ),
@@ -136,7 +136,7 @@ class SpidermanDetails extends StatelessWidget {
                       child: Column(
                         children: [
                           Text(
-                            'Spider-Man: No Way Home',
+                            'The Matrix Resurrections',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontSize: 24,
@@ -151,7 +151,8 @@ class SpidermanDetails extends StatelessWidget {
                           ),
                           Text(
                             '2021•Action-Sci-fi•2h28m',
-                            textAlign: TextAlign.center,
+
+                          textAlign: TextAlign.center,
                             style: TextStyle(
                               fontSize: 13,
                               color: Constants.kWhiteColor.withOpacity(
@@ -183,7 +184,7 @@ class SpidermanDetails extends StatelessWidget {
                             height: 20,
                           ),
                           Text(
-                            'Peter Park is unmasked for the world to see,\nforcing him to discover\nwhat it truly means\nto be Spider-man.',
+                            'Plagued by strange memories,\nNeo’s life takes an unexpected turn \n when he finds himself back inside\nthe Matrix.',
                             textAlign: TextAlign.center,
                             maxLines: screenHeight <= 667 ? 2 : 4,
                             style: TextStyle(
@@ -239,7 +240,7 @@ class SpidermanDetails extends StatelessWidget {
                                 minRadius: 16,
                                 maxRadius: screenWidth <= 375 ? 24 : 30,
                                 backgroundImage: const NetworkImage(
-                                  'https://thecelebportal.com/wp-content/uploads/2020/02/Tom-Holland-Income.jpg',
+                                  'https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_.jpg',
                                 ),
                               ),
                               Expanded(
