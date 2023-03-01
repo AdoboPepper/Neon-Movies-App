@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:moviesapp/screens/eternals_movie_details.dart';
 import 'package:moviesapp/screens/home_screen.dart';
+import 'package:moviesapp/screens/matrix_movie_details.dart';
 import 'package:moviesapp/screens/movie_detail_screen.dart';
 import 'package:moviesapp/screens/onboarding_screen.dart';
 import 'package:moviesapp/screens/spiderman_movie_details.dart';
@@ -21,11 +22,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: GoogleFonts.openSans().fontFamily,
       ),
-
-      //home: const DetailsEternals(),
-      home: const SpidermanDetails(),
-      //home: const HomeScreen(),
-      //home: const OnboardingScreen(),
+      //home: MatrixDetails(),
+      //home: DetailsEternals(),
+      //home: SpidermanDetails(),
+      //home: HomeScreen(),
+      home: OnboardingScreen(),
     );
   }
 }

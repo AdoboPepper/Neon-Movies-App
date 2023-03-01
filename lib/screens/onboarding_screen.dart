@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:moviesapp/components/custom_outline.dart';
 import 'package:moviesapp/constants.dart';
 
+import 'home_screen.dart';
+
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({Key? key}) : super(key: key);
 
@@ -143,24 +145,32 @@ class OnboardingScreen extends StatelessWidget {
                       end: Alignment.bottomRight,
                       colors: [Constants.kPinkColor, Constants.kGreenColor],
                     ),
-                    child: Container(
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(20),
-                        gradient: LinearGradient(
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                          colors: [
-                            Constants.kPinkColor.withOpacity(0.5),
-                            Constants.kGreenColor.withOpacity(0.5)
-                          ],
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => HomeScreen()),
+                        );
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          gradient: LinearGradient(
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight,
+                            colors: [
+                              Constants.kPinkColor.withOpacity(0.5),
+                              Constants.kGreenColor.withOpacity(0.5)
+                            ],
+                          ),
                         ),
-                      ),
-                      child: const Center(
-                        child: Text(
-                          'Sign Up',
-                          style: TextStyle(
-                            fontSize: 14,
-                            color: Constants.kWhiteColor,
+                        child: const Center(
+                          child: Text(
+                            'Sign Up',
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Constants.kWhiteColor,
+                            ),
                           ),
                         ),
                       ),

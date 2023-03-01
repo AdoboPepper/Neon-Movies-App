@@ -136,7 +136,7 @@ class MatrixDetails extends StatelessWidget {
                       child: Column(
                         children: [
                           Text(
-                            'The Matrix Resurrections',
+                            'The Matrix\nResurrections',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontSize: 24,

@@ -136,7 +136,7 @@ class SpidermanDetails extends StatelessWidget {
                       child: Column(
                         children: [
                           Text(
-                            'Spider-Man: No Way Home',
+                            'Spider-Man:\nNo Way Home',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontSize: 24,
